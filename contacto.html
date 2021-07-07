@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/stylesRegistro.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="descuentos">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+    <div class="titulo">
+        <a href="index.html"><img src="/root/img/logo_tienda.png"></a>
+        <h1>Card Super Héroes</h1>
+    </div>
+    <nav>
+        <ul type="none">
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="registro.html">Registrarme</a></li>
+            <li><a href="login.html">Ingresar</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="registro">
+        <form action="" method="POST" class="">
+            <h2>Contacto</h2>
+            <p class="labelP"><label for="nombre">Ingrese su nombre y apellido: </label></p>
+            <p class="inputP"><input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required></p>
+
+            <p class="labelP"><label for="mail">Ingrese su correo electrónico: </label></p>
+            <p class="inputP"><input type="email" name="mail" id="mail" placeholder="nombre@dirección.com" required></p>
+
+            <p class="labelP"><label for="comentario">Ingrese su comentario: </label></p>
+            <textarea id="comentario" rows="10" placeholder="Comentario" required></textarea>
+
+
+            <div class="divBotones">
+                <button type="reset" class="resetearBtn">Resetear</button>
+                <button type="submit" class="registrarBtn">Entrar</button>
+            </div>            
+        </form>
+    </div>
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+        <a href="https://github.com/Matiaslen25/HeroesLogin" target="_blank"><img src="img/logo_github.png" alt="logo github"></a>
+    </footer>
+</body>
+</html>
