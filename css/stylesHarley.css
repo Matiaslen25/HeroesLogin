@@ -1,7 +1,7 @@
 main{
     width: 100vw;
     height: 50vw;
-    background-image: url(/root/img/fondo_harley.png);
+    background-image: url(../img/fondo_harley2.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
